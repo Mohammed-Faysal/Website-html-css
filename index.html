@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Title of the Website-->
+    <title>SALTIM X</title>
+
+    <!--Favicon Link-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+  </head>
+
+
+  <!--Scroll korle navbar er menu gula highlight hobe. Ter jonno body tag er modde kico property use korte hobe.Ja bootstrap 5 er Docs e gia Scrollspy like search korle pabo. Property gula holo, data-bs-spy="scroll" data-bs-target="navbar er class e je value ta ace hoboho sai value ta dite hobe." data-bs-offset=""-->
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container">
+
+      <!--nav Icon-->
+      <a class="navbar-brand" href="#"><img src="https://i.ibb.co/1fSPmSM/logo.png" alt="logo"></a>
+
+      <!--Humbarger Collapse-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <!--Ul List-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+
+          <li class="nav-item mx-2">
+            <a class="nav-link"  href="#pricing">Pricing</a>
+          </li>
+
+          <li class="nav-item mx-2">
+            <a class="nav-link"  href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+
+      <div class="navbar-social">
+        
+        <ul class="navbar-nav d-flex align-items-center social-icon">
+          <li class="mx-2 fw-bold">FOLLOW US</li>
+          <li class="mx-1 mx-lg-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="mx-1 mx-lg-2"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="mx-1 mx-lg-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="mx-1 mx-lg-2"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+    </div>
+    </div>
+  </nav>
+  
+    
+  <!--Home Section-->
+  <section class="home" id="home">
+
+    <!--For Overlay-->
+    <div class="overlay"></div>
+
+    <!--For Hero-Wave-Shape-->
+    <div class="hero-shape">
+      <img src="./images/header-shape.svg" alt="">
+    </div>
+
+  </section> 
+ <!--Home Section--> 
+  <div class="text">
+    <h3>We Are A strategic Marketing, Media And Ideas Agency</h3>
+    <h6 class="lead mb-3">A simple, customizable, and beautiful SaaS business foucused landing page to make your project closer to launch!</h6>
+    <ul class="header-btn">
+      <li class="mb-sm-3"><a href="#" class="main-btn btn btn-danger">GET IN TOUCH</a></li>
+      <li><a href="https://www.youtube.com" target="blank" class="main-btn btn btn-secondary">WATCH THE VIDEO <i class="fa fa-play"></i></a></li>
+    </ul>
+  </div>
+
+
+  <!--Service Section-->
+  <section class=" offset" id="service">
+    <div class="container">
+
+      <div class="servicText text-center ">
+        <h3>Crafted For</h3>
+        <h6>Stop wasting time and money designing <br> and managing website that doesn't get results. Hapiness guaranteed.lorem10</h6>
+      </div>
+      
+   
+
+     
+      <div class="row my-5 d-flex align-items-center service">
+
+        <div class="col-12 col-md-12 col-lg-8">
+         <div class="row g-5">
+
+           <div class="col-md-6">
+              <div class="card">
+
+                <div class="icon mb-2">
+                  <i class="far fa-chart-bar"></i>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">saaS Business</h5>
+                  <p class="card-text">Short description for the ones who look for something new.</p>
+                </div>
+
+              </div>
+           </div>
+
+           <div class="col-md-6">
+              <div class="card" style="width: 18rem;">
+
+                <div class="icon mb-2">
+                  <i class="far fa-bell"></i>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">saaS Business</h5>
+                  <p class="card-text">Short description for the ones who look for something new.</p>
+                </div>
+
+              </div>
+           </div>
+
+           <div class="col-md-6">
+              <div class="card" style="width: 18rem;">
+
+                <div class="icon mb-2">
+                  <i class="fas fa-coffee"></i>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">saaS Business</h5>
+                  <p class="card-text">Short description for the ones who look for something new.</p>
+                </div>
+
+              </div>
+           </div>
+
+           <div class="col-md-6">
+              <div class="card" style="width: 18rem;">
+
+                <div class="icon mb-2">
+                  <i class="fas fa-chart-area"></i>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">saaS Business</h5>
+                  <p class="card-text">Short description for the ones who look for something new.</p>
+                </div>
+
+              </div>
+           </div>
+
+
+         </div>
+        </div>
+
+      
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="image mb-5 mb-md-5 pb-md-5 pb-lg-0 mb-lg-0 text-center">
+            <img src="https://i.ibb.co/GFnbG5x/1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  
+  <!--nav ber er je menu te click korbo oi menu r heading borabor ase jeno teme jai, ter jonno .offset class ta use kora hoice.-->
+  <!--Pricing-->
+  <section class="offset" id="pricing">
+    <div class="container">
+
+      <div class="pricingText text-center ">
+        <h3>Our Services</h3>
+        <h6>Stop wasting time and money designing <br> and managing website that doesn't get results. Hapiness guaranteed.lorem10</h6>
+      </div>
+
+
+      <div class="row g-4 pt-4 my-5 d-flex justify-content-between align-items-center pricing">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center firstCard mx-auto">
+           
+            <div class="card-body">
+
+             <div class="b-head">
+               <h3>BASIC</h3>
+             </div>
+             <div class="b-currency mb-3">
+              <span class="sign">$</span>
+              <span class="currency">99</span>
+              <span class="cent">.99/</span>
+              <span class="month">MON</span>
+            </div>
+
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Carefully crafted components</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Amazing page examples</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Super friendly support team</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Awesom Support</li>
+            </ul>
+
+            <div class="card-body">
+              <a href="#" class=" my-4 btn btn-primary">See More</a>
+            </div>
+
+          </div>
+        </div>
+
+
+        
+        <div class="col-12 col-md-6 col-lg-4 ">
+          <div class="card text-center secondCard mx-auto">
+           
+            <div class="card-body">
+
+             <div class="b-head">
+               <h3>STANDARD</h3>
+             </div>
+             <div class="b-currency mb-3">
+              <span class="sign">$</span>
+              <span class="currency">199</span>
+              <span class="cent">.99/</span>
+              <span class="month">MON</span>
+            </div>
+
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Carefully crafted components</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Amazing page examples</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Super friendly support team</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Awesom Support</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Amazing page examples</li>
+            </ul>
+
+            <div class="card-body">
+              <a href="#" class=" my-4 btn btn-primary">See More</a>
+            </div>
+
+          </div>
+        </div>
+
+        
+        
+        <div class="col-12 col-md-6 col-lg-4 mx-auto">
+          <div class="card text-center thirdChild mx-auto">
+           
+            <div class="card-body">
+
+             <div class="b-head">
+               <h3>ULTIMATED</h3>
+             </div>
+             <div class="b-currency mb-3">
+              <span class="sign">$</span>
+              <span class="currency">299</span>
+              <span class="cent">.99/</span>
+              <span class="month">MON</span>
+            </div>
+
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Carefully crafted components</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Amazing page examples</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Super friendly support team</li>
+              <li class="list-group-item text-muted"><i class="far fa-check-circle"></i>Awesom Support</li>
+            </ul>
+
+            <div class="card-body">
+              <a href="#" class=" my-4 btn btn-primary">See More</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </section>
+
+
+  <!--CallToAct-->
+  <section id="callToAct" class="py-5">
+    <div class="container call">
+      <div class="row toAct">
+        <div class="col-12 col-md-12 mx-auto">
+         
+          <div class="callToAct text-center">
+            <h3>Curious to Learn More? <br> Stay Tuned</h3>
+            <h6 class="lead">You let us know whenever you want us to update anything or think something can be optimised.</h6>
+            <div class="cell-news text-center mt-3">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="faysal@gmail.com">
+              <button type="submit">SUBSCRIBE</button>
+            </div>
+          </div>
+  
+          
+
+        </div>
+    
+
+      </div>
+      
+    </div>
+  </section>
+
+         
+  <!--Contact-->
+  <section id="contact" class="pb-5 offset">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center text-white">
+          <h3 class="display-4">
+            Get in touch
+          </h3>
+          </h1>
+          <div class="parent">
+            <div class="divider my-3"></div>
+          </div>
+          <h6 class="lead">Stop wasting time and money designing <br>
+          and managing website that doesn't get results. Hapiness guaranteed!</h6></div>
+      </div>
+
+      <div class="row py-5">
+        <div class="col-12 col-md-12 col-lg-8 mx-auto">
+
+          <form action="" class="row g-4 form">
+            <div class="form-group col-md-6">
+              <label for="firstname" class="form-label mb-1">First Name:</label>
+              <input type="text" id="firstname" class="form-control frm" placeholder="First Name" autocomplete="off">
+            </div>
+            
+            <div class="form-group col-md-6">
+              <label for="lastname" class="form-label mb-1">Last Name:</label>
+              <input type="text" id="lastname" class="form-control frm" placeholder="Last Name" autocomplete="off">
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="email" class="form-label mb-1">Email Address:</label>
+              <input type="email" id="email" class="form-control frm" placeholder="Email Address" autocomplete="off">
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="password" class="form-label mb-1">Password:</label>
+              <input type="password" id="password" class="form-control frm" placeholder="Password" autocomplete="off">
+            </div>
+
+            <div class="form-group col-md-12">
+              <label for="message" class="form-label mb-1">Comment:</label>
+              <textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Your Message..." autocomplete="off"></textarea>
+            </div>
+
+            <div class="text-center formBtn">
+              <button type="submit" class="btn btn-main text-white fw-bold">Submit</button>
+            </div>
+
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Footer-->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row-one">
+        <a class="logo" href="https://imgbb.com/">
+          <img src="https://i.ibb.co/1fSPmSM/logo.png" alt="logo">
+        </a>
+        <ul class="social-icon">
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+      <div class="row p-4 p-md-0 g-4 g-md-0 footertitle">
+
+        <div class="col-md-3">
+          <h6 class="footerTitle">Company</h6>
+          <ul>
+            <li class="mb-2"><a href="">About</a></li>
+            <li class="mb-2"><a href="">Contact</a></li>
+            <li class="mb-2"><a href="">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h6 class="footerTitle">Product & Services</h6>
+          <ul>
+            <li class="mb-2"><a href="">Product</a></li>
+            <li class="mb-2"><a href="">Business</a></li>
+            <li class="mb-2"><a href="">Developer</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h6 class="footerTitle">Help & Support</h6>
+          <ul>
+            <li class="mb-2"><a href="">Support Center</a></li>
+            <li class="mb-2"><a href="">FAQ</a></li>
+            <li class="mb-2"><a href="">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h6 class="footerTitle">Subscribe Newsletter</h6>
+          <div class="inp d-flex justify-content-between align-items-center">
+            <input type="email" name="" id="" placeholder="Your Email">
+            <button><i class="fas fa-angle-double-right"></i></button>
+          </div>
+          <p class="txt mt-2">Subscribe weekly newsletter to stay upto date. We don't send span.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!--Final Footer-->
+  <footer class="py-4 mb-0 copyright">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 text-center mx-auto">
+          <p class="mb-0">Template Crafted by <a href="">MD.Faysal</a> UI Powered by <a href="">Silent Coder</a></p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!--jQuery CDN for navbar scroll effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Script.js-->
+    <script src="script.js"></script>
+
+
+  </body>
+</html>
